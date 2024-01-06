@@ -1,0 +1,11 @@
+import styles from './PostForm.module.scss';
+
+const PostForm = () => {
+  return (
+    <div>
+      PostForm
+    </div>
+  );
+};
+
+export default PostForm;
