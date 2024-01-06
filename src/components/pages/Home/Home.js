@@ -15,12 +15,15 @@ const Home = () => {
             <div className={styles.post}>
               <h3 className={styles.title}>{post.title}</h3>
               <p className={styles.author}><span>Author: </span>{post.author}</p>
-              <p className={styles.date}><span>Published: </span>{post.pubilshedDate}</p>
-              <p>{post.shortDeescription}</p>
+              <p className={styles.date}><span>Published: </span>{post.publishedDate}</p>
+              <p>{post.shortDescription}</p>
               <Link to={`/post/${post.id}`} className={styles.link}>Read more</Link>
             </div>
           ))
         }
+      </div>
+      <div className='text-end'>
+        <Link className="btn btn-primary" to="/post/add">Add post</Link>
       </div>
     </main>
   );

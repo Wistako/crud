@@ -1,0 +1,29 @@
+.wrapper{
+  position: relative;
+  margin: 0 240px;
+}
+.post{
+  p{
+    margin-bottom: 0;
+    &:nth-child(4){
+      margin-top: 8px;
+      margin-bottom: 16px;
+    }
+  }
+  span{
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+.title{
+  font-size: 32px;
+  padding: 16px 0 ;
+}
+.buttons{
+  position: absolute;
+  right: 0;
+  top: 16px;
+  >*{
+    margin-left: 12px
+  }
+}

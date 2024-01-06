@@ -1,0 +1,22 @@
+.wrapper{
+  margin: 0 auto;
+  width: 880px;
+}
+.form{
+  p{
+    margin: 0;
+  }
+  input, textarea{
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    padding: 6px 8px;
+  }
+  input{
+    width: 50%;
+  }
+  textarea{
+    width: 100%;
+    height: 200px;
+  }
+}
