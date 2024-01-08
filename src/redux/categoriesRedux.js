@@ -1,10 +1,9 @@
-import shortid from "shortid";
 
 // selectors
 export const getAllCategories = state => state.categories;
 export const getCategoryByName = ({categories}, name) => categories.find(category => category.name === name);
 // action
-const createActionName = name => `app/categories/${name}`;
+// const createActionName = name => `app/categories/${name}`;
 
 // action creators
 
