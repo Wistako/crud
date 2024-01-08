@@ -6,7 +6,7 @@ const initialState = {
       author: 'John Doe',
       shortDescription: 'Short description',
       content: 'Main content of the article',
-      publishedDate: '2021-01-01',
+      publishedDate: new Date('02-03-2023'),
     },
     {
       id: '2',
@@ -14,7 +14,7 @@ const initialState = {
       author: 'John Doe',
       shortDescription: 'Short description',
       content: 'Main content of the article',
-      publishedDate: '2021-01-01',
+      publishedDate: new Date('02-03-2023'),
     },
     {
       id: '3',
@@ -22,7 +22,7 @@ const initialState = {
       author: 'John Doe',
       shortDescription: 'Short description',
       content: 'Main content of the article',
-      publishedDate: '2021-01-01',
+      publishedDate: new Date('02-03-2023'),
     },
     {
       id: '4',
@@ -30,7 +30,7 @@ const initialState = {
       author: 'John Doe',
       shortDescription: 'Short description',
       content: 'Main content of the article',
-      publishedDate: '2021-01-01',
+      publishedDate: new Date('02-03-2023'),
     },
   ],
 

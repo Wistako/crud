@@ -7,6 +7,7 @@ import { getPostById } from '../../../redux/postsRedux';
 import { deletePost } from '../../../redux/postsRedux';
 import { Button, Modal } from 'react-bootstrap';
 import { useState } from 'react';
+import dateToString from '../../../utils/dateToString';
 
 
 const Post = () => {
@@ -39,8 +40,9 @@ const Post = () => {
       <div className={styles.post}>
         <h3 className={styles.title}>{post.title}</h3>
         <p className={styles.author}><span>Author: </span>{post.author}</p>
-        <p className={styles.date}><span>Published: </span>{post.publishedDate}</p>
-        <p>{post.content}</p>
+        <p className={styles.date}><span>Published: </span>{dateToString(post.publishedDate)}</p>
+        <p dangerouslySetInnerHTML={{ __html: post.content }} />
+
       </div>
       <Modal 
         show={showModal}
