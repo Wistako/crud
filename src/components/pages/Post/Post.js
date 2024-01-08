@@ -40,7 +40,8 @@ const Post = () => {
       <div className={styles.post}>
         <h3 className={styles.title}>{post.title}</h3>
         <p className={styles.author}><span>Author: </span>{post.author}</p>
-        <p className={styles.date}><span>Published: </span>{dateToString(post.publishedDate)}</p>
+        <p className={styles.date}><span>Published: </span>{dateToString(post.publishedDate)}</p>        
+        <p className={styles.category}><span>Category: </span>{post.category}</p>
         <p dangerouslySetInnerHTML={{ __html: post.content }} />
 
       </div>

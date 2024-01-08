@@ -7,6 +7,7 @@ const initialState = {
       shortDescription: 'Short description',
       content: 'Main content of the article',
       publishedDate: new Date('02-03-2023'),
+      category: 'Sport',
     },
     {
       id: '2',
@@ -15,6 +16,7 @@ const initialState = {
       shortDescription: 'Short description',
       content: 'Main content of the article',
       publishedDate: new Date('02-03-2023'),
+      category: 'News',
     },
     {
       id: '3',
@@ -23,6 +25,7 @@ const initialState = {
       shortDescription: 'Short description',
       content: 'Main content of the article',
       publishedDate: new Date('02-03-2023'),
+      category: 'Movies',
     },
     {
       id: '4',
@@ -31,9 +34,23 @@ const initialState = {
       shortDescription: 'Short description',
       content: 'Main content of the article',
       publishedDate: new Date('02-03-2023'),
+      category: 'Sport',
     },
   ],
-
+  categories: [
+    {
+      id: '1',
+      name: 'Sport',
+    },
+    {
+      id: '2',
+      name: 'News',
+    },
+    {
+      id: '3',
+      name: 'Movies',
+    },
+  ]
 };
 
 export default initialState;
