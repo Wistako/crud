@@ -1,0 +1,18 @@
+.wrapper{
+  max-width: 1040px;
+  margin: 0 auto; 
+}
+.list{
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin-top: 32px;
+}
+.categories{
+  border: 0.1px solid #ccc;
+  border-bottom: none;
+  padding: 12px;
+  &:last-child{
+    border-bottom: 0.1px solid #ccc;
+  }
+}

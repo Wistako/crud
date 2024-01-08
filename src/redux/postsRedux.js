@@ -3,6 +3,7 @@ import shortid from "shortid";
 //  selectors
 export const getAllPost = state => state.posts;
 export const getPostById = ({posts}, postId) =>  posts.find(post => post.id === postId);
+export const getPostsByCategory = ({posts}, category) => posts.filter(post => post.category === category);
 
 // actions
 const createActionName = name => 'app/posts/' + name;
